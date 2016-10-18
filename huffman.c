@@ -85,7 +85,7 @@ void printArr(char arr[], int n, int size, char c) {
 	//compressedfilename = strcat(fn, ".z");
 	fp = fopen(fn, "r");
 	//printf("%s",argv[1]);
-	cp = fopen("comp.txt", "w+");
+	cp = fopen("huff.txt", "w+");
 	if( cp == NULL) {
 		printf("FILE COULD NOT OPEN!");
 		return;
