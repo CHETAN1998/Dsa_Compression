@@ -91,7 +91,7 @@ void printArr(char arr[], int n, int size, char c) {
 		return;
 	}
 	while(  ( x = fread(&ch , sizeof(ch), 1, fp ) ) != 0 ) {
-		printf("%c\t",ch);
+		//printf("%c\t",ch);
 		/*for(_j = 0 ; ( _j < size ) ; _j++) {
 			if(ch == code[_j][0]) {
 				printf("%s\n",code[_j]);
