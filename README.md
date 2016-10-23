@@ -1,6 +1,6 @@
 # Dsa_Compression
     1:RLE(Run Length Encoding)
-        This type of compression is used for small text files.
+        This type of compression is used for small text files, specially when text data is repetitive.
         Run this program by typing gcc rle.c and then ./a.out
     2:HUFFMAN
         It uses Huffman Binary tree, bitwise operations.
