@@ -3,6 +3,5 @@
         This type of compression is used for small text files.
         Run this program by typing gcc rle.c and then ./a.out
     2:HUFFMAN
-        Run this program by typing make and then ./a.out <filename>
-        Currently compression is working .
-        I have to do decompression for compressed file.
+        It uses Huffman Binary tree, bitwise operations.
+        Compression ratio is ~0.61.
